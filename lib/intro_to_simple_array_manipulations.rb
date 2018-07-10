@@ -26,13 +26,15 @@ def shift_with_args(arr, num)
     arr.shift
     num -= 1
   end
+end
 
 def using_concat(arr1, arr2)
-  arr1.concat(arr2)
+  return arr1.concat(arr2)
 end
 
 def using_insert(arr1, arr2)
-  arr1.insert(arr2, 4)
+  return arr1.insert(4, arr2)
+end
   
   
   
