@@ -23,11 +23,8 @@ def using_shift(arr)
 end
 
 def shift_with_args(arr)
-  num = 2
-  while num > 0 
-    arr = arr.shift
-    num -= 1
-  end
+  
+  arr.shift(2)
 end
 
 def using_concat(arr1, arr2)
