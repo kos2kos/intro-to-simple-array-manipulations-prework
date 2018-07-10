@@ -10,7 +10,8 @@ def using_pop(arr)
  return arr.pop
 end
 
-def pop_with_args(arr, num)
+def pop_with_args(arr)
+  num = 2
   while num > 0 
     arr.pop 
     num -= 1
@@ -21,7 +22,8 @@ def using_shift(arr)
   return arr.shift 
 end
 
-def shift_with_args(arr, num)
+def shift_with_args(arr)
+  num = 2
   while num > 0 
     arr.shift
     num -= 1
