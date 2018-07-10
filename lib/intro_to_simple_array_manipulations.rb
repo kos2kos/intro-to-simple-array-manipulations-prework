@@ -25,7 +25,7 @@ end
 def shift_with_args(arr)
   num = 2
   while num > 0 
-    arr.shift
+    arr = arr.shift
     num -= 1
   end
 end
